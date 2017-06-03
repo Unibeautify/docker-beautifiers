@@ -1,2 +1,3 @@
-# docker-beautifiers
-Docker images for code beautifiers/formatters
+# Docker Beautifiers
+
+> Docker images for code beautifiers/formatters

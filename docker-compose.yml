@@ -1,0 +1,5 @@
+version: '2'
+services:
+  php-cs-fixer:
+    build: ./php-cs-fixer
+    image: unibeautify/php-cs-fixer
