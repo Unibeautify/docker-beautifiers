@@ -2,6 +2,8 @@
 
 > Docker images for code beautifiers/formatters
 
+See list of beautifier Docker images at https://hub.docker.com/u/unibeautify/
+
 ## Installation
 
 [Docker](https://docs.docker.com/engine/installation/) is required.
