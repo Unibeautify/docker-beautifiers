@@ -6,3 +6,6 @@ services:
   phpcbf:
     build: ./phpcbf
     image: unibeautify/phpcbf
+  uncrustify:
+    build: ./uncrustify
+    image: unibeautify/uncrustify
