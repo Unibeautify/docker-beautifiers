@@ -3,3 +3,6 @@ services:
   php-cs-fixer:
     build: ./php-cs-fixer
     image: unibeautify/php-cs-fixer
+  phpcbf:
+    build: ./phpcbf
+    image: unibeautify/phpcbf
