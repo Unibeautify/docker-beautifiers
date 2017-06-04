@@ -5,3 +5,4 @@ LABEL io.whalebrew.config.working_dir '/workdir'
 WORKDIR /workdir
 
 ENTRYPOINT ["uncrustify"]
+CMD ["--help"]

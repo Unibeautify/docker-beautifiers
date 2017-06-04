@@ -1,5 +1,8 @@
 version: '2'
 services:
+  elm-format:
+    build: ./elm-format
+    image: unibeautify/elm-format
   php-cs-fixer:
     build: ./php-cs-fixer
     image: unibeautify/php-cs-fixer
