@@ -12,3 +12,6 @@ services:
   uncrustify:
     build: ./uncrustify
     image: unibeautify/uncrustify
+  rscript:
+    build: ./rscript
+    image: unibeautify/rscript
