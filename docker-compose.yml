@@ -21,9 +21,12 @@ services:
   phpcbf:
     build: ./phpcbf
     image: unibeautify/phpcbf
-  uncrustify:
-    build: ./uncrustify
-    image: unibeautify/uncrustify
   rscript:
     build: ./rscript
     image: unibeautify/rscript
+  sass-convert:
+    build: ./sass-convert
+    image: unibeautify/sass-convert
+  uncrustify:
+    build: ./uncrustify
+    image: unibeautify/uncrustify
