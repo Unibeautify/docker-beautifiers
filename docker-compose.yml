@@ -30,6 +30,9 @@ services:
   sass-convert:
     build: ./sass-convert
     image: unibeautify/sass-convert
+  sqlformat:
+    build: ./sqlformat
+    image: unibeautify/sqlformat
   uncrustify:
     build: ./uncrustify
     image: unibeautify/uncrustify
