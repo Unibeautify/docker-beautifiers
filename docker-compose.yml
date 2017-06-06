@@ -24,6 +24,9 @@ services:
   rscript:
     build: ./rscript
     image: unibeautify/rscript
+  rubocop:
+    build: ./rubocop
+    image: unibeautify/rubocop
   sass-convert:
     build: ./sass-convert
     image: unibeautify/sass-convert
