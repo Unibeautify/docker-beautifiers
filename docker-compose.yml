@@ -9,6 +9,9 @@ services:
   clang-format:
     build: ./clang-format
     image: unibeautify/clang-format
+  crystal:
+    build: ./crystal
+    image: unibeautify/crystal
   elm-format:
     build: ./elm-format
     image: unibeautify/elm-format
