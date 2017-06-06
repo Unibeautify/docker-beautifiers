@@ -1,0 +1,6 @@
+sudo: required
+language: generic
+services:
+  - docker
+script:
+  - docker-compose build
