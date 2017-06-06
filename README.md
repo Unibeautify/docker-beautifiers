@@ -7,7 +7,7 @@
 See list of beautifier Docker images at https://hub.docker.com/u/unibeautify/
 
 | Name | Build Status | Pulls | Stars |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | [elm-format](https://github.com/avh4/elm-format) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/elm-format.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/elm-format/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/elm-format.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/elm-format/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/elm-format.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/elm-format/) |
 | [php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/php-cs-fixer.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/php-cs-fixer/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/php-cs-fixer.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/php-cs-fixer/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/php-cs-fixer.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/php-cs-fixer/) |
 | [phpcbf](https://github.com/squizlabs/PHP_CodeSniffer) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/phpcbf.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/phpcbf/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/phpcbf.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/phpcbf/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/phpcbf.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/phpcbf/) |
