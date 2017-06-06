@@ -3,6 +3,9 @@ services:
   autopep8:
     build: ./autopep8
     image: unibeautify/autopep8
+  beautysh:
+    build: ./beautysh
+    image: unibeautify/beautysh
   elm-format:
     build: ./elm-format
     image: unibeautify/elm-format
