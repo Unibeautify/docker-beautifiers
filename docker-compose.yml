@@ -1,5 +1,8 @@
 version: '2'
 services:
+  autopep8:
+    build: ./autopep8
+    image: unibeautify/autopep8
   elm-format:
     build: ./elm-format
     image: unibeautify/elm-format
