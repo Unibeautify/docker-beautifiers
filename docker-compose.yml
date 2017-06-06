@@ -24,6 +24,9 @@ services:
   rscript:
     build: ./rscript
     image: unibeautify/rscript
+  ruby-beautify:
+    build: ./ruby-beautify
+    image: unibeautify/ruby-beautify
   rubocop:
     build: ./rubocop
     image: unibeautify/rubocop
