@@ -15,6 +15,9 @@ services:
   elm-format:
     build: ./elm-format
     image: unibeautify/elm-format
+  ocp-indent:
+    build: ./ocp-indent
+    image: unibeautify/ocp-indent
   php-cs-fixer:
     build: ./php-cs-fixer
     image: unibeautify/php-cs-fixer
