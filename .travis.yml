@@ -2,6 +2,21 @@ sudo: required
 language: generic
 services:
   - docker
+env:
+  - SERVICE=autopep8
+  - SERVICE=beautysh
+  - SERVICE=clang-format
+  - SERVICE=crystal
+  - SERVICE=elm-format
+  - SERVICE=ocp-indent
+  - SERVICE=php-cs-fixer
+  - SERVICE=phpcbf
+  - SERVICE=rscript
+  - SERVICE=rubocop
+  - SERVICE=ruby-beautify
+  - SERVICE=sass-convert
+  - SERVICE=sqlformat
+  - SERVICE=uncrustify
 script:
-  - docker-compose build
-  - docker-compose up
+  - docker-compose build "$SERVICE"
+  - docker-compose up "$SERVICE"
