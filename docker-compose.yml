@@ -15,6 +15,9 @@ services:
   elm-format:
     build: ./elm-format
     image: unibeautify/elm-format
+  goimports:
+    build: ./goimports
+    image: unibeautify/goimports
   ocp-indent:
     build: ./ocp-indent
     image: unibeautify/ocp-indent

@@ -8,7 +8,8 @@ env:
   - SERVICE=clang-format
   - SERVICE=crystal
   - SERVICE=elm-format
-  - SERVICE=ocp-indent
+  - SERVICE=goimports
+  # - SERVICE=ocp-indent
   - SERVICE=php-cs-fixer
   - SERVICE=phpcbf
   - SERVICE=rscript
