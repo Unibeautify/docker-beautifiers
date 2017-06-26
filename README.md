@@ -13,6 +13,7 @@ See list of beautifier Docker images at https://hub.docker.com/u/unibeautify/
 | [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/clang-format.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/clang-format/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/clang-format.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/clang-format/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/clang-format.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/clang-format/) |
 | [Crystal](https://crystal-lang.org/) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/crystal.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/crystal/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/crystal.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/crystal/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/crystal.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/crystal/) |
 | [elm-format](https://github.com/avh4/elm-format) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/elm-format.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/elm-format/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/elm-format.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/elm-format/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/elm-format.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/elm-format/) |
+| [exfmt](https://github.com/lpil/exfmt) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/exfmt.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/exfmt/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/exfmt.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/exfmt/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/exfmt.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/exfmt/) |
 | [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/goimports.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/goimports/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/goimports.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/goimports/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/goimports.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/elm-format/) |
 | [ocp-indent](https://github.com/OCamlPro/ocp-indent) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/ocp-indent.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/ocp-indent/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/ocp-indent.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/ocp-indent/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/ocp-indent.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/ocp-indent/) |
 | [php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) | [![Docker Build Statu](https://img.shields.io/docker/build/unibeautify/php-cs-fixer.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/php-cs-fixer/) | [![Docker Pulls](https://img.shields.io/docker/pulls/unibeautify/php-cs-fixer.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/php-cs-fixer/) | [![Docker Stars](https://img.shields.io/docker/stars/unibeautify/php-cs-fixer.svg?style=flat-square)](https://hub.docker.com/r/unibeautify/php-cs-fixer/) |
@@ -31,14 +32,14 @@ See list of beautifier Docker images at https://hub.docker.com/u/unibeautify/
 ### Using Whalebrew
 
 1. Install [Whalebrew](https://github.com/bfirsh/whalebrew)
-2. `whalebrew install unibeautify/BEAUTIFIER`  
+2. `whalebrew install unibeautify/BEAUTIFIER`
 e.g. `whalebrew install unibeautify/php-cs-fixer`
-3. Profit! You can now run the installed beautifier command.  
+3. Profit! You can now run the installed beautifier command.
 e.g. `php-cs-fixer --version`
 
 ### Manually
 
-1. Pull the Docker image: `docker pull unibeautify/BEAUTIFIER`  
+1. Pull the Docker image: `docker pull unibeautify/BEAUTIFIER`
 e.g. `docker pull unibeautify/php-cs-fixer`
-2. Run the Docker image: `docker run -it -v "$(pwd)":/workdir -w /workdir unibeautify/BEAUTIFIER "--version"`  
+2. Run the Docker image: `docker run -it -v "$(pwd)":/workdir -w /workdir unibeautify/BEAUTIFIER "--version"`
 e.g. `docker run -it -v "$(pwd)":/workdir -w /workdir unibeautify/php-cs-fixer "--version"`
