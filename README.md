@@ -32,14 +32,14 @@ See list of beautifier Docker images at https://hub.docker.com/u/unibeautify/
 ### Using Whalebrew
 
 1. Install [Whalebrew](https://github.com/bfirsh/whalebrew)
-2. `whalebrew install unibeautify/BEAUTIFIER`
+2. `whalebrew install unibeautify/BEAUTIFIER`  
 e.g. `whalebrew install unibeautify/php-cs-fixer`
-3. Profit! You can now run the installed beautifier command.
+3. Profit! You can now run the installed beautifier command.  
 e.g. `php-cs-fixer --version`
 
 ### Manually
 
-1. Pull the Docker image: `docker pull unibeautify/BEAUTIFIER`
+1. Pull the Docker image: `docker pull unibeautify/BEAUTIFIER`  
 e.g. `docker pull unibeautify/php-cs-fixer`
-2. Run the Docker image: `docker run -it -v "$(pwd)":/workdir -w /workdir unibeautify/BEAUTIFIER "--version"`
+2. Run the Docker image: `docker run -it -v "$(pwd)":/workdir -w /workdir unibeautify/BEAUTIFIER "--version"`  
 e.g. `docker run -it -v "$(pwd)":/workdir -w /workdir unibeautify/php-cs-fixer "--version"`
