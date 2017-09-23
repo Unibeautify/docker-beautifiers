@@ -1,5 +1,6 @@
 FROM ocaml/opam
 
+SHELL ["/bin/sh", "-lc"]
 LABEL io.whalebrew.name 'ocp-indent'
 LABEL io.whalebrew.config.working_dir '/workdir'
 WORKDIR /workdir
