@@ -9,5 +9,6 @@ RUN opam init --auto-setup
 RUN opam install --yes ocp-indent
 RUN ocp-indent --help
 
-ENTRYPOINT ["ocp-indent"]
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["--help"]
