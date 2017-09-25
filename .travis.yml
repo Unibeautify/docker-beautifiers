@@ -10,7 +10,7 @@ env:
   - SERVICE=elm-format
   - SERVICE=exfmt
   - SERVICE=goimports
-  # - SERVICE=ocp-indent
+  - SERVICE=ocp-indent
   - SERVICE=php-cs-fixer
   - SERVICE=phpcbf
   - SERVICE=rscript
