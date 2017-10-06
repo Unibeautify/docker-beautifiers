@@ -30,6 +30,9 @@ services:
   phpcbf:
     build: ./phpcbf
     image: unibeautify/phpcbf
+  puppet-lint:
+    build: ./puppet-lint
+    image: unibeautify/puppet-lint
   rscript:
     build: ./rscript
     image: unibeautify/rscript
