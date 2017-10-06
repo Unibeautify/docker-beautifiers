@@ -1,2 +1,2 @@
-#!/bin/sh -l
+#!/bin/bash -l
 ocp-indent "$@"
