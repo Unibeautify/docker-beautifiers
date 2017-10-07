@@ -13,6 +13,7 @@ env:
   - SERVICE=ocp-indent
   - SERVICE=php-cs-fixer
   - SERVICE=phpcbf
+  - SERVICE=puppet-lint
   - SERVICE=rscript
   - SERVICE=rubocop
   - SERVICE=ruby-beautify
