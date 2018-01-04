@@ -4,6 +4,6 @@ LABEL io.whalebrew.name 'exfmt'
 LABEL io.whalebrew.config.working_dir '/workdir'
 WORKDIR /workdir
 
-RUN mix help exfmt
+RUN mix help format
 
-ENTRYPOINT ["mix", "exfmt"]
+ENTRYPOINT ["mix", "format"]
