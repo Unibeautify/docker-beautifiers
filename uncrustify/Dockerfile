@@ -4,7 +4,7 @@ LABEL io.whalebrew.name 'uncrustify'
 LABEL io.whalebrew.config.working_dir '/workdir'
 WORKDIR /workdir
 
-ENV UNCRUSTIFY_VERSION 0.65
+ENV UNCRUSTIFY_VERSION 0.66.1
 
 RUN apk upgrade --update
 
