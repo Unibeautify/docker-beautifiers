@@ -15,9 +15,6 @@ services:
   elm-format:
     build: ./elm-format
     image: unibeautify/elm-format
-  exfmt:
-    build: ./exfmt
-    image: unibeautify/exfmt
   goimports:
     build: ./goimports
     image: unibeautify/goimports
