@@ -1,4 +1,4 @@
-# Docker Beautifiers [![Build Status](https://travis-ci.org/Unibeautify/docker-beautifiers.svg?branch=master)](https://travis-ci.org/Unibeautify/docker-beautifiers)
+# Docker Beautifiers [![Build Status](https://travis-ci.com/Unibeautify/docker-beautifiers.svg?branch=master)](https://travis-ci.com/Unibeautify/docker-beautifiers)
 
 > Docker images for code beautifiers/formatters.
 
