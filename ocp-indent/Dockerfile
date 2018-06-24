@@ -1,4 +1,4 @@
-FROM ocaml/opam
+FROM ocaml/opam:latest@sha256:43152bc294d3264d63573c48972e30d9352a4472a66ec1f8e64cfb5be50b2d12
 
 SHELL ["/bin/bash", "-lc"]
 LABEL io.whalebrew.name 'ocp-indent'

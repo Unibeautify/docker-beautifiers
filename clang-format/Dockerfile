@@ -1,4 +1,4 @@
-FROM debian:sid-slim
+FROM debian:sid-slim@sha256:8a8026a8ecb84144928e70ec33be07eb17e59d165ed45f31ebd4081296d2a543
 
 RUN apt-get update && \
     apt-get install -y clang-format-6.0
