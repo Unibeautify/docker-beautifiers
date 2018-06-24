@@ -5,16 +5,17 @@ services:
 env:
   - SERVICE=autopep8
   - SERVICE=beautysh
+  - SERVICE=black
   - SERVICE=clang-format
   - SERVICE=crystal
-  - SERVICE=elm-format
+  # - SERVICE=elm-format
   - SERVICE=goimports
   - SERVICE=ocp-indent
   - SERVICE=php-cs-fixer
   - SERVICE=phpcbf
   - SERVICE=puppet-lint
   - SERVICE=rscript
-  - SERVICE=rubocop
+  # - SERVICE=rubocop
   - SERVICE=ruby-beautify
   - SERVICE=sass-convert
   - SERVICE=sqlformat

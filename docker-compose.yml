@@ -6,6 +6,9 @@ services:
   beautysh:
     build: ./beautysh
     image: unibeautify/beautysh
+  black:
+    build: ./black
+    image: unibeautify/black
   clang-format:
     build: ./clang-format
     image: unibeautify/clang-format
