@@ -2,52 +2,52 @@ version: '2'
 services:
   autopep8:
     build: ./autopep8
-    image: unibeautify/autopep8
+    image: unibeautify/autopep8:latest@sha256:2b21294d4c0f3cfb4f911acad13069c9f218bf50e1f6bc2c1a7144166bcc9ed1
   beautysh:
     build: ./beautysh
-    image: unibeautify/beautysh
+    image: unibeautify/beautysh:latest@sha256:dea326c9532711538d68f7cb4f0f21b345f504671af01b49d0d3d4dadb55dd9c
   black:
     build: ./black
-    image: unibeautify/black
+    image: unibeautify/black:latest@sha256:e2a58c8102b53bc24cbe26d83a868cf539caa8a9db836cda7a0fb4a2c616d99d
   clang-format:
     build: ./clang-format
-    image: unibeautify/clang-format
+    image: unibeautify/clang-format:latest@sha256:2e257c1f248317a62d22bf4415cb3e842dc8424948e5caaf46c421e46fa46578
   crystal:
     build: ./crystal
-    image: unibeautify/crystal
+    image: unibeautify/crystal:latest@sha256:c766403e2b08a73e19559f56648e1ca73ea6e5b983b428387c5e7dc651e5b880
   elm-format:
     build: ./elm-format
-    image: unibeautify/elm-format
+    image: unibeautify/elm-format:latest@sha256:2b280bf59b4416148a04f8f54ee143ea058433a3dc83ad162f9017f8682c3857
   goimports:
     build: ./goimports
-    image: unibeautify/goimports
+    image: unibeautify/goimports:latest@sha256:af556249925b2f353f3548aad0d9d5ff89635aa6af128369fe617cd18e515eac
   ocp-indent:
     build: ./ocp-indent
-    image: unibeautify/ocp-indent
+    image: unibeautify/ocp-indent:latest@sha256:a753e23d6c97cb701e00579e10bd30f68afa67c32f95c6c6cd7f33ee4be01740
   php-cs-fixer:
     build: ./php-cs-fixer
-    image: unibeautify/php-cs-fixer
+    image: unibeautify/php-cs-fixer:latest@sha256:7f2e7687225fe1ddc3ad25c09c5000b6e60af106dcd7e509a858b6b3c90b3ad2
   phpcbf:
     build: ./phpcbf
-    image: unibeautify/phpcbf
+    image: unibeautify/phpcbf:latest@sha256:57760239c39b2dd86104a67e48728bc0a426f7bd7ed10717b1b6123eaff3ae77
   puppet-lint:
     build: ./puppet-lint
-    image: unibeautify/puppet-lint
+    image: unibeautify/puppet-lint:latest@sha256:054ccc074579a0fa3ffeff8da55fcba9cb2380f65ba60dc3a2954151c3b65eea
   rscript:
     build: ./rscript
-    image: unibeautify/rscript
+    image: unibeautify/rscript:latest@sha256:38c0764813af45b0bc91a162188a4bc6cee5c92599796842b9edbadc66de4523
   ruby-beautify:
     build: ./ruby-beautify
-    image: unibeautify/ruby-beautify
+    image: unibeautify/ruby-beautify:latest@sha256:1bbd9e7494492dbf86f74bac5babf3f0fe7bef20670fdd1a07b56453d2d3cc64
   rubocop:
     build: ./rubocop
-    image: unibeautify/rubocop
+    image: unibeautify/rubocop:latest@sha256:b8edb44abe6848c7fc8d0bb955805b6f618da3d6fbe40dd141e55a89f4435444
   sass-convert:
     build: ./sass-convert
-    image: unibeautify/sass-convert
+    image: unibeautify/sass-convert:latest@sha256:e4f4c4caa9fe19373687fd16741775fd31124e156ab56593ca4d7e1765a1d7bc
   sqlformat:
     build: ./sqlformat
-    image: unibeautify/sqlformat
+    image: unibeautify/sqlformat:latest@sha256:ec43074ed3349f7609be5c1d6eea1206a690ea3be8c02ed9d9889f8b57f6d07a
   uncrustify:
     build: ./uncrustify
-    image: unibeautify/uncrustify
+    image: unibeautify/uncrustify:latest@sha256:2ec8c3f7494dbc9abc4f66bf0c9828fc195c208cfde49129a1b196ee7d746a13
