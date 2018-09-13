@@ -1,4 +1,4 @@
-FROM php:7.2.8-alpine
+FROM php:7.2.9-alpine
 
 LABEL io.whalebrew.name 'php-cs-fixer'
 LABEL io.whalebrew.config.working_dir '/project'
