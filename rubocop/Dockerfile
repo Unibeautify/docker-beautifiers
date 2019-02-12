@@ -8,6 +8,10 @@ RUN apk update \
 RUN gem install rubocop -v 0.64.0
 RUN gem install rubocop-rspec -v 1.32.0
 
+RUN rm -rf /usr/local/bundle/cache/*.gem \
+ && find /usr/local/bundle/gems/ -name "*.c" -delete \
+ && find /usr/local/bundle/gems/ -name "*.o" -delete
+
 FROM ruby:alpine
 
 LABEL io.whalebrew.name 'rubocop'
