@@ -1,16 +1,20 @@
-FROM ruby:alpine
+FROM ruby:alpine as builder
 
 RUN apk update \
     && apk add --virtual build-dependencies \
         build-base \
     && true
 
+RUN gem install rubocop -v 0.64.0
+RUN gem install rubocop-rspec -v 1.32.0
+
+FROM ruby:alpine
+
 LABEL io.whalebrew.name 'rubocop'
 LABEL io.whalebrew.config.working_dir '/workdir'
 WORKDIR /workdir
 
-RUN gem install rubocop -v 0.64.0
-RUN gem install rubocop-rspec -v 1.32.0
+COPY --from=builder /usr/local/ /usr/local/
 
 ENTRYPOINT ["rubocop"]
 CMD ["--help"]
