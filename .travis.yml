@@ -15,7 +15,7 @@ env:
   - SERVICE=phpcbf
   - SERVICE=puppet-lint
   - SERVICE=rscript
-  # - SERVICE=rubocop
+  - SERVICE=rubocop
   - SERVICE=ruby-beautify
   - SERVICE=sass-convert
   - SERVICE=sqlformat
