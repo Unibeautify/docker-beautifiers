@@ -44,3 +44,5 @@ e.g. `php-cs-fixer --version`
 e.g. `docker pull unibeautify/php-cs-fixer`
 2. Run the Docker image: `docker run -it -v "$(pwd)":/workdir -w /workdir unibeautify/BEAUTIFIER "--version"`  
 e.g. `docker run -it -v "$(pwd)":/workdir -w /workdir unibeautify/php-cs-fixer "--version"`
+
+Note: Some tools could change file ownership/permissions upon reformat and/or rewriting. Adding `--user "$(id -u):$(id -g)"` to your `docker run` command should prevent this.
