@@ -6,6 +6,7 @@ env:
   - SERVICE=autopep8
   - SERVICE=beautysh
   - SERVICE=black
+  - SERVICE=brittany
   - SERVICE=clang-format
   - SERVICE=crystal
   # - SERVICE=elm-format

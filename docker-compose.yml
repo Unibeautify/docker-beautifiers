@@ -9,6 +9,9 @@ services:
   black:
     build: ./black
     image: unibeautify/black
+  brittany:
+    build: ./brittany
+    image: unibeautify/brittany
   clang-format:
     build: ./clang-format
     image: unibeautify/clang-format
