@@ -1,4 +1,4 @@
-FROM herpinc/brittany:0.12.1.1
+FROM herpinc/brittany:0.13.1.0
 
 LABEL io.whalebrew.name 'brittany'
 LABEL io.whalebrew.config.working_dir '/workdir'
