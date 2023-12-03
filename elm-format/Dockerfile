@@ -1,4 +1,4 @@
-FROM node:6-slim
+FROM node:20-slim
 
 LABEL io.whalebrew.name 'elm-format'
 LABEL io.whalebrew.config.working_dir '/workdir'
