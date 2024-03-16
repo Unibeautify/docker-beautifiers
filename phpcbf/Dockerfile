@@ -1,4 +1,4 @@
-FROM php:7.3-alpine
+FROM php:8.3-alpine
 
 LABEL io.whalebrew.name 'phpcbf'
 LABEL io.whalebrew.config.working_dir '/workdir'
